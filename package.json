@@ -1,0 +1,14 @@
+{
+  "name": "sbis3-bl-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sbis3-bl-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kochnevns",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
