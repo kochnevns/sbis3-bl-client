@@ -22,6 +22,7 @@ class SBIS3RPCClient
 
       new Promise (resolve, reject) ->
         serviceRequest = request reqOptions, (err, res, body) ->
+          if err then reject err
           resolve JSON.parse(arguments[1].body).result
           
 
